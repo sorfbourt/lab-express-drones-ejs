@@ -12,7 +12,7 @@ const express = require('express')
 const app = express()
 
 //const msg = require('./seeds/drones.seed.js');
-
+const bodyParser = require('body-parser')
 // ℹ️ This function is getting exported from the config folder. It runs most middlewares
 require('./config')(app)
 
