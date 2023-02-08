@@ -1,1 +1,14 @@
 <h2>Available drones</h2>
+
+<% allDrones.forEach(drone => { %>
+    <div style="border: 1px solid black;margin:20px;padding:10px;">
+ <h2><%= drone.name %></h2>
+ <p>Propellers: <%= drone.propellers %></p>
+ <p>Max speed: <%= drone.maxSpeed %></p>
+
+</div>
+
+<% }) %>
+
+
+
